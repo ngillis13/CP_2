@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>CP_2 travle buddy</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <p>Welcome to Nate's Travel buddy!</p>
+  </div>
+
+  <div class="instruction">
+    <p>Choose the country you are visiting</p>
+  </div>
+
+
+  <div class="selector_container">
+    <select id="selector">
+        <option value="US">United Sates</option>
+        <option value="UK">United Kingdom</option>
+        <option value="FR">France</option>
+        <option value="DE">Germany</option>
+    </select>
+  </div>
+
+
+  <div class="holidays_container">
+    <p class="holiday_promt">See what holidays are coming up in your country!</p>
+    <button type="button" id="Holiday_button"> View Holidays</button>
+
+    <div class="holiday_result_container">
+      <div id="holiday_result"></div>
+    </div>
+
+  </div>
+
+  <div class="exchange_container">
+    <p class="exchange_promt">Enter an amount of American Dollars to see the amount of local currency!</p>
+    <form>
+      <label>Enter U.S. dollars amount</label>
+      <input id="dollarInput" type="text"></input>
+      <input id="exchangeSubmit" type="submit" value="Submit"></input>
+    </form>
+
+    <div class="exchange_result_container">
+      <div id="exchange_result"></div>
+    </div>
+
+
+  </div>
+
+  <div class="news_container">
+    <p class="news_promt">Click here to get recent news stories from about your country</p>
+    <button type="button" id="news_button"> See stories</button>
+
+    <hr style = "height: 3px; color:black;background-color:black">
+
+    <div class="news_result_container">
+      <div id="news_result"></div>
+    </div>
+
+    <script text="type/javascript" src="script.js">
+      </script>
+
+  </div>
+
+  <div class="footer_container">
+    <div class="footer">
+      <p class="github_info"><a href="https://github.com/ngillis13/CP_2">
+      <em>github link<em></a></p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
